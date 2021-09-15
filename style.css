@@ -29,17 +29,6 @@ html {
   overflow-x: hidden;
 }
 
-.section-heading {
-  font-size: 10rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #0514bddb;
-  text-align: center;
-  opacity: 0.3;
-  text-shadow: 2rem 2rem 4rem #aaa;
-  background: #0099ff;
-}
-
 /* End of Common Styles */
 
 /* Section 1 */
@@ -525,17 +514,17 @@ html {
 
 .glassMorphism-box:nth-child(1):before,
 .glassMorphism-box:nth-child(1):after {
-  background: linear-gradient(45deg, #ffbc00, #ff0058);
+  background: linear-gradient(45deg, rgba(0, 208, 255, 0.8), rgba(235, 255, 51, 0.8));
 }
 
 .glassMorphism-box:nth-child(2):before,
 .glassMorphism-box:nth-child(2):after {
-  background: linear-gradient(315deg, #03A9F4, #ff0058);
+  background: linear-gradient(315deg, rgba(2, 202, 12, 0.8), rgba(0, 208, 255, 0.8));
 }
 
 .glassMorphism-box:nth-child(3):before,
 .glassMorphism-box:nth-child(3):after {
-  background: linear-gradient(315deg, #4dff03, #00d0ff);
+  background: linear-gradient(315deg, rgba(43, 64, 253, 0.8), rgba(2, 202, 12, 0.8));
 }
 
 .glassMorphism-box span {
@@ -700,6 +689,11 @@ html {
 }
 
 /* End of Section 2 */
+.customersSvg {
+  height: fit-content;
+  width: 100vw;
+  margin-bottom: -3px;
+}
 
 .scroll-up-btn {
   width: 5rem;

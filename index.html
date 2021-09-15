@@ -14,7 +14,7 @@
 <body>
     <div class="container">
         <!-- NAVSection -->
-        <nav class="navigation open">
+        <nav class="navigation open laptopArea">
             <ul>
                 <li class="list active">
                     <a href="#">
@@ -51,6 +51,30 @@
             </ul>
         </nav>
         <!-- End Of NAVSection -->
+        <!-- Mobile navigation -->
+        <div class="mobileNav mobileArea">
+            <div class="mobileNav-slot round-top-left">
+                <a href="#" class="mobileNav-link active">
+                    <i class="fa fa-home" aria-hidden="true"></i>&nbsp; Home </a>
+            </div>
+            <div class="mobileNav-slot">
+                <a href="#" class="mobileNav-link">
+                    <i class="fa fa-users" aria-hidden="true"></i> &nbsp; About </a>
+            </div>
+            <div class="mobileNav-slot">
+                <a href="#" class="mobileNav-link">
+                    <i class="fa fa-calculator" aria-hidden="true"></i>&nbsp; Price </a>
+            </div>
+            <div class="mobileNav-slot">
+                <a href="#" class="mobileNav-link active">
+                    <i class="fa fa-question-circle" aria-hidden="true"></i>&nbsp; Faq </a>
+            </div>
+            <div class="mobileNav-slot round-top-right">
+                <a href="#" class="mobileNav-link active">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; Contact </a>
+            </div>
+        </div>
+        <!-- End Of Mobile navigation -->
         <!-- Section 1 -->
         <section class="section-1" id="home">
             <div class="floating-bg"></div>
@@ -70,12 +94,22 @@
         <!-- End of Section 1 -->
         <!-- Section 2 -->
         <!-- <section class="section-2" id="customers"> -->
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#0099ff" fill-opacity="0.6"
-                d="M0,256L40,245.3C80,235,160,213,240,176C320,139,400,85,480,85.3C560,85,640,139,720,165.3C800,192,880,192,960,170.7C1040,149,1120,107,1200,85.3C1280,64,1360,64,1400,64L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
-            </path>
-        </svg>
-        <h1 class="section-heading">Customers</h1>
+        <div class="customersSvg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#0099ff" fill-opacity="0.6"
+                    d="M0,256L40,245.3C80,235,160,213,240,176C320,139,400,85,480,85.3C560,85,640,139,720,165.3C800,192,880,192,960,170.7C1040,149,1120,107,1200,85.3C1280,64,1360,64,1400,64L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+                </path>
+                <text x="225" y="130" font-size="98">C</text>
+                <text x="337" y="90" font-size="98">u</text>
+                <text x="449" y="70" font-size="98">s</text>
+                <text x="561" y="90" font-size="98">t</text>
+                <text x="673" y="130" font-size="98">o</text>
+                <text x="785" y="160" font-size="98">m</text>
+                <text x="897" y="150" font-size="98">e</text>
+                <text x="1009" y="130" font-size="98">r</text>
+                <text x="1121" y="90" font-size="98">s</text>
+            </svg>
+        </div>
         <!-- <div class="customers-wrapper"> -->
         <div class="glassMorphism-body">
             <div class="glassMorphism-container">
