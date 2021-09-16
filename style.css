@@ -137,7 +137,6 @@ html {
 
 .water-content h2 {
   margin-top: 15%;
-
   position: absolute;
   font-size: 16vw;
   transition: 0.5s;
@@ -188,15 +187,12 @@ html {
   }
 }
 
-.water-content_text {
-  margin-top: -5%;
-  position: relative;
+.wcth {
   width: 90vw;
   text-align: center;
-  display: flex;
   justify-content: center;
   align-items: center;
-  height: 350px;
+  height: 250px;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Bellota Text',
@@ -204,31 +200,38 @@ html {
   font-weight: 400;
 }
 
-.water-content_text h3 {
-  margin-top: 0.1%;
-  position: absolute;
+.wcth3 {
+  height: 50px;
+  max-width: fit-content;
+  display: block;
+  margin-top: 10%;
   font-size: 2vw;
   transition: 0.5s;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.water-content_text h4 {
-  /* top: 78%; */
-  margin-top: 12%;
-  position: absolute;
+.wcth4 {
+  max-width: fit-content;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 1.5vw;
   transition: 0.5s;
 }
 
-.water-content_text h4 strong {
+.wcth4 strong {
 
   font-size: 2.2rem;
   font-weight: 900;
 }
 
-.water-content_text h5 {
-  margin-top: 30%;
-
-  position: absolute;
+.wcth5 {
+  margin-left: auto;
+  margin-right: auto;
+  height: 10px;
+  max-width: fit-content;
+  margin-top: 1%;
   font-size: 1.8vw;
   transition: 0.5s;
 }
