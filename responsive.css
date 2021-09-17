@@ -121,7 +121,7 @@
         display: flex;
         justify-content: center;
         flex-direction: row;
-        width: 97vw;
+        width: 100vw;
         height: 100px;
         filter: drop-shadow(0 0 5px rgba(31, 31, 31, 0.1));
         position: fixed;
@@ -282,7 +282,7 @@ footer .footer-container {
         display: flex;
         justify-content: center;
         flex-direction: row;
-        width: 97vw;
+        width: 100vw;
         height: 50px;
         filter: drop-shadow(0 0 5px rgba(31, 31, 31, 0.1));
         position: fixed;
@@ -331,12 +331,12 @@ footer .footer-container {
 
     /* GlassMorphism */
     .glassMorphism-body {
-        justify-content: center
+        justify-content: center;
     }
 
     ;
 
-    .glassMorphism-box {
+    .glassMorphism-box .glassMorphism-content {
         width: 90vw;
         display: flex;
         flex-direction: column;
@@ -346,17 +346,13 @@ footer .footer-container {
         margin: 0;
     }
 
-    .glassMorphism-content {
-        width: 80vw;
-    }
-
     .glassMorphism-box .glassMorphism-content p {
         font-size: 2rem;
         margin-bottom: 5px;
     }
 
     .customer {
-        width: 100vw;
+        width: 85vw;
         height: fit-content;
         display: flex;
         flex-direction: column;
