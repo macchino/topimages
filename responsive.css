@@ -179,6 +179,7 @@
     .section-heading {
         margin-bottom: 5rem;
     }
+
 }
 
 footer .footer-container {
@@ -224,6 +225,7 @@ footer .footer-container {
         font-weight: 400;
     }
 
+    /* media 550px */
     .wcth {
         width: 90vw;
         text-align: center;
@@ -274,17 +276,8 @@ footer .footer-container {
         transition: 0.5s;
     }
 
-    .copyright {
-        font-size: 1.8rem;
-        margin: 5rem;
-        text-align: center;
-    }
-
-    .scroll-up-btn {
-        bottom: 2rem;
-        right: 2rem;
-    }
-
+    /* media 550px */
+    /* Navigation */
     .mobileNav {
         display: flex;
         justify-content: center;
@@ -319,9 +312,7 @@ footer .footer-container {
         transition: 0.3s all;
     }
 
-    .active {
-        color: #fff;
-    }
+    /* media 550px */
 
     .mobileNav-link:hover {
         transition: 0.3s all;
@@ -336,6 +327,77 @@ footer .footer-container {
         border-top-right-radius: 15px;
     }
 
+    /* End Of Navigation */
+
+    /* GlassMorphism */
+    .glassMorphism-body {
+        justify-content: center
+    }
+
+    ;
+
+    .glassMorphism-box {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        height: fit-content;
+        margin: 0;
+    }
+
+    .glassMorphism-content {
+        width: 80vw;
+    }
+
+    .glassMorphism-box .glassMorphism-content p {
+        font-size: 2rem;
+        margin-bottom: 5px;
+    }
+
+    .customer {
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.5rem;
+        padding: 2rem;
+    }
+
+
+    .glassMorphism-box:hover .glassMorphism-content {
+        left: 0;
+        padding: 0;
+    }
+
+    .copyrightTextMobile {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+
+    .copyrightText {
+        height: 70px;
+    }
+
+    .scroll-up-btn {
+        width: 5rem;
+        height: 5rem;
+        background-color: #3044a5;
+        position: fixed;
+        z-index: 20;
+        bottom: 10rem;
+        right: 5rem;
+        border-radius: 50%;
+        font-size: 1.6rem;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-color 0.5s;
+    }
 }
 
 @media (max-width: 991px) {
