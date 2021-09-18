@@ -1,6 +1,6 @@
 /* Responsive */
 /* ~1400  ~1150  ~950 ~550*/
-/* mobile*laptop 780px */
+/* mobile*laptop 930px */
 @media (max-width: 1400px) {
     .floating-bg {
         top: -120vw;
@@ -27,13 +27,13 @@
     }
 }
 
-@media (min-width: 781px) {
+@media (min-width: 931px) {
     .mobileArea {
         display: none;
     }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 930px) {
     html {
         font-size: 50%;
     }
@@ -50,7 +50,7 @@
         height: 900px;
     }
 
-    /* Media 780px */
+    /* Media 930px */
     .floating-bg {
         height: 120vw;
     }
@@ -120,7 +120,7 @@
         transition: 0.5s;
     }
 
-    /* Media 780px */
+    /* Media 930px */
 
     .mobileNav {
         display: flex;
@@ -156,7 +156,7 @@
         transition: 0.3s all;
     }
 
-    /* Media 780px */
+    /* Media 930px */
 
     .mobileNav-link:hover {
         transition: 0.3s all;
