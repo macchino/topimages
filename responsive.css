@@ -2,12 +2,134 @@
 /* ~1400  ~1150  ~950 ~550*/
 /* mobile*laptop 930px */
 @media (max-width: 1400px) {
+    .laptopArea {
+        display: block;
+    }
+
+    .mobileArea {
+        display: none;
+    }
+
+    .section-1 {
+        height: 920px;
+    }
+
     .floating-bg {
         top: -120vw;
     }
 
+    .wcth {
+        width: 90vw;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        margin-top: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Bellota Text',
+            cursive;
+        font-weight: 400;
+    }
+
+    .wcth3 {
+        height: 50px;
+        max-width: 90vw;
+        display: block;
+        margin-top: 11%;
+        font-size: 5vw;
+        transition: 0.5s;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .wcth4 {
+        max-width: fit-content;
+        margin-top: 12%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 2.5vw;
+        transition: 0.5s;
+    }
+
+    .wcth4 strong {
+
+        font-size: 3rem;
+        font-weight: 900;
+    }
+
+    .wcth5 {
+        margin-left: auto;
+        margin-right: auto;
+        height: 10px;
+        max-width: fit-content;
+        margin-top: 3%;
+        font-size: 2.8vw;
+        transition: 0.5s;
+    }
+
+    .glassMorphism-body {
+        height: 3200px;
+    }
+
+    .glassMorphism-container {
+        display: block;
+    }
+
+    .glassMorphism-box .glassMorphism-content {
+        width: 85vw;
+        height: 900px;
+        left: auto;
+        right: auto;
+        display: block;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 0 auto;
+    }
+
+    .glassMorphism-box:nth-child(1) {
+        margin-top: 100px;
+    }
+
+    .glassMorphism-box:nth-child(n+2) {
+        margin-top: 550px;
+    }
+
+    .glassMorphism-box:hover span:before {
+        top: -150px;
+        left: -50px;
+    }
+
+    .glassMorphism-box:hover span:after {
+        bottom: -100px;
+        right: 0px;
+    }
+
+    .customer-img {
+        width: 60rem;
+        height: 40rem;
+    }
+
+    .glassMorphism-box .glassMorphism-content p {
+        font-size: 3rem;
+        margin-bottom: 5px;
+    }
+
+    .glassMorphism-box .glassMorphism-content a {
+        font-size: 2.8em;
+    }
+
     .customer {
+        width: 65vw;
+        height: 750px;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 0.5rem;
+        padding: 2rem;
         margin: 5rem 10rem;
+
     }
 
     .copyright {
@@ -15,23 +137,7 @@
     }
 }
 
-@media (max-width: 1150px) {
-    .floating-bg {
-        top: -110vw;
-    }
-}
 
-@media (max-width: 950px) {
-    .floating-bg {
-        top: -100vw;
-    }
-}
-
-@media (min-width: 931px) {
-    .mobileArea {
-        display: none;
-    }
-}
 
 @media (max-width: 930px) {
     html {
@@ -47,7 +153,7 @@
     }
 
     .section-1 {
-        height: 900px;
+        height: 920px;
     }
 
     /* Media 930px */
@@ -76,7 +182,7 @@
         justify-content: center;
         align-items: center;
         height: 400px;
-        margin-top: -20%;
+        margin-top: -10%;
         margin-left: auto;
         margin-right: auto;
         font-family: 'Bellota Text',
@@ -105,7 +211,6 @@
     }
 
     .wcth4 strong {
-
         font-size: 3rem;
         font-weight: 900;
     }
@@ -115,8 +220,8 @@
         margin-right: auto;
         height: 10px;
         max-width: fit-content;
-        margin-top: 3%;
-        font-size: 2.8vw;
+        margin-top: 7%;
+        font-size: 5vw;
         transition: 0.5s;
     }
 
@@ -176,7 +281,7 @@
     }
 
     .glassMorphism-body {
-        height: 2100px;
+        height: 3000px;
     }
 
     .glassMorphism-container {
@@ -185,21 +290,25 @@
 
     .glassMorphism-box .glassMorphism-content {
         width: 85vw;
-        height: 600px;
+        height: 850px;
         left: auto;
         right: auto;
         display: block;
         align-items: flex-start;
         justify-content: flex-start;
-        margin: 0 auto;
     }
 
     .glassMorphism-box:nth-child(1) {
-        margin-top: -20px;
+        margin-top: 80px;
     }
 
     .glassMorphism-box:nth-child(n+2) {
-        margin-top: 180px;
+        margin-top: 450px;
+    }
+
+    .customer-img {
+        width: 40rem;
+        height: 25rem;
     }
 
     .glassMorphism-box .glassMorphism-content p {
@@ -209,11 +318,12 @@
 
     .customer {
         width: 45vw;
-        height: 450px;
+        height: 700px;
         display: flex;
         align-items: center;
         border-radius: 0.5rem;
         padding: 2rem;
+        margin-top: 5px;
     }
 
     .copyrightTextMobile {
