@@ -1,6 +1,16 @@
 /* Responsive */
 /* ~1400  ~1150  ~950 ~550*/
 /* mobile*laptop 930px */
+@media (min-width: 1401px) {
+    .laptopArea {
+        display: block;
+    }
+
+    .mobileArea {
+        display: none;
+    }
+}
+
 @media (max-width: 1400px) {
     .laptopArea {
         display: block;
@@ -36,7 +46,7 @@
         height: 50px;
         max-width: 90vw;
         display: block;
-        margin-top: 30%;
+        margin-top: 22%;
         font-size: 3.5vw;
         transition: 0.5s;
         margin-left: auto;
