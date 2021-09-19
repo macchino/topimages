@@ -36,8 +36,8 @@
         height: 50px;
         max-width: 90vw;
         display: block;
-        margin-top: 11%;
-        font-size: 5vw;
+        margin-top: 15%;
+        font-size: 4vw;
         transition: 0.5s;
         margin-left: auto;
         margin-right: auto;
@@ -68,6 +68,7 @@
         transition: 0.5s;
     }
 
+    /* max-width: 1400px */
     .glassMorphism-body {
         height: 3200px;
     }
@@ -97,13 +98,19 @@
 
     .glassMorphism-box:hover span:before {
         top: -150px;
-        left: -50px;
+        left: -200px;
+        width: 100px;
+        height: 100px;
     }
 
     .glassMorphism-box:hover span:after {
-        bottom: -100px;
-        right: 0px;
+        bottom: -190px;
+        right: -200px;
+        width: 100px;
+        height: 100px;
     }
+
+    /* max-width: 1400px */
 
     .customer-img {
         width: 60rem;
@@ -288,6 +295,8 @@
         display: block;
     }
 
+    /* Media 930px */
+
     .glassMorphism-box .glassMorphism-content {
         width: 85vw;
         height: 850px;
@@ -306,9 +315,25 @@
         margin-top: 450px;
     }
 
+    .glassMorphism-box:hover span:before {
+        top: -150px;
+        left: -65px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .glassMorphism-box:hover span:after {
+        bottom: -130px;
+        right: -15px;
+        width: 100px;
+        height: 100px;
+    }
+
+    /* Media 930px */
+
     .customer-img {
-        width: 40rem;
-        height: 25rem;
+        width: 35rem;
+        height: 18rem;
     }
 
     .glassMorphism-box .glassMorphism-content p {
@@ -335,6 +360,8 @@
     .copyrightText {
         height: 15rem;
     }
+
+    /* Media 930px */
 
     .scroll-up-btn {
         width: 5.5rem;
@@ -525,6 +552,16 @@ footer .footer-container {
 
     .glassMorphism-box:nth-child(n+2) {
         margin-top: 80px;
+    }
+
+    .glassMorphism-box:hover span:before {
+        top: -45px;
+        left: -15px;
+    }
+
+    .glassMorphism-box:hover span:after {
+        bottom: 2px;
+        right: -7px;
     }
 
     .glassMorphism-box .glassMorphism-content p {
